@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {PhonebookFrame, InputStyle,PhonebookSectionletter, AddButton } from './Layout.js';
 import { nanoid } from 'nanoid';
-import PropTypes from 'prop-types';
 
 
 class Form extends Component {
