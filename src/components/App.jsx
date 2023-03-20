@@ -2,8 +2,7 @@ import  React, {Component} from 'react';
 import { GlobalStyle } from './GlobalStyle';
 import 'modern-normalize';
 import { nanoid } from 'nanoid';
-// import PropTypes from 'prop-types';
-import { Layout, Sectionletter, InputStyle, Headerletter } from './Layout.js';
+import { Layout, Sectionletter, Headerletter } from './Layout.js';
 import Form from './Form.js';
 import { Contacts } from './Contacts.js';
 import { FilterContacts } from './FilterContact';
@@ -73,5 +72,3 @@ export class App extends Component {
     );
   }
 }
-
-export default App;

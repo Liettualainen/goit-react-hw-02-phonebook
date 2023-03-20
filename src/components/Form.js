@@ -66,11 +66,6 @@ class Form extends Component {
  
 }
 
-Form.propTypes = {
-    id: PropTypes.string,
-    name: PropTypes.string,
-    number: PropTypes.number,
-}
 
 
 export default Form;
